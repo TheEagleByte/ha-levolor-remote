@@ -1,0 +1,16 @@
+{
+  "domain": "levolor_ble",
+  "name": "Levolor BLE Blinds",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/your-repo/levolor-ble",
+  "bluetooth": [
+    {
+      "local_name": "Levolor*"
+    }
+  ],
+  "iot_class": "local_polling",
+  "requirements": ["bleak>=0.21.0"],
+  "version": "1.0.0"
+}

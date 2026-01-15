@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select Levolor Remote",
+        "description": "Select the Levolor remote to connect to.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Configure Blind",
+        "description": "Found {name} at {address}. Configure your blind below.",
+        "data": {
+          "blind_name": "Blind Name",
+          "channel": "Channel"
+        }
+      },
+      "configure": {
+        "title": "Configure Blind",
+        "description": "Enter a name for your blind and select its channel.",
+        "data": {
+          "blind_name": "Blind Name",
+          "channel": "Channel"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "no_devices_found": "No Levolor devices found. Ensure your remote is powered on and nearby."
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Levolor remote.",
+      "unknown": "An unexpected error occurred."
+    }
+  }
+}
