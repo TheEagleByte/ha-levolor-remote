@@ -4,7 +4,7 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["bluetooth_adapters"],
-  "documentation": "https://github.com/your-repo/levolor-ble",
+  "documentation": "https://github.com/TheEagleByte/ha-levolor-remote",
   "bluetooth": [
     {
       "local_name": "Levolor*"
